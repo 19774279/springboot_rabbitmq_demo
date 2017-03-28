@@ -1,4 +1,4 @@
-package com.zhongying.demo1;
+package com.zsj.demo1;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;

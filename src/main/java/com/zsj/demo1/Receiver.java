@@ -1,4 +1,4 @@
-package com.zhongying.demo1;
+package com.zsj.demo1;
 
 import java.util.concurrent.CountDownLatch;
 

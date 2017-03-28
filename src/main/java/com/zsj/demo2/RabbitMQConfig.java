@@ -1,4 +1,4 @@
-package com.zhongying.demo2;
+package com.zsj.demo2;
 
 import com.rabbitmq.client.Channel;
 import org.springframework.amqp.core.*;

@@ -1,4 +1,4 @@
-package com.zhongying.demo2;
+package com.zsj.demo2;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.rabbit.support.CorrelationData;
