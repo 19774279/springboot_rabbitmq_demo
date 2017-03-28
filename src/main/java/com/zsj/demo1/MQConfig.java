@@ -8,11 +8,12 @@ import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
 import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter;
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 
 /** 这个类与Receiver、Runner是一个项目，如果要使用，请放开这三个类的@Component注释<br>
  * Created by zhusj on 2017/3/27.
  */
-//@Component
+@Component
 public class MQConfig {
 
 	final static String queueName = "spring-boot";

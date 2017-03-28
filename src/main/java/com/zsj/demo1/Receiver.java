@@ -1,11 +1,13 @@
 package com.zsj.demo1;
 
+import org.springframework.stereotype.Component;
+
 import java.util.concurrent.CountDownLatch;
 
 /**
  * Created by zhusj on 2017/3/24.
  */
-//@Component
+@Component
 public class Receiver {
 	private CountDownLatch latch = new CountDownLatch(1);
 
