@@ -1,5 +1,5 @@
 <root>
-    <item name='org.springframework.amqp.core.Queue'>
-        <annotation name='java.lang.Deprecated'/>
-    </item>
+	<item name='org.springframework.amqp.core.Queue'>
+		<annotation name='java.lang.Deprecated'/>
+	</item>
 </root>
