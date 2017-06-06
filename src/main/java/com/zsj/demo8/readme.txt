@@ -1,0 +1,1 @@
+使用RabbitTemplate实现的RabbitMQ的ACK。包括发送和接收消息。

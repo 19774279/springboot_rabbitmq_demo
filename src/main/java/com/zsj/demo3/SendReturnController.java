@@ -24,7 +24,6 @@ public class SendReturnController implements RabbitTemplate.ConfirmCallback, Rab
 		//设置消费回调
 		this.rabbitTemplate.setConfirmCallback(this);
 		this.rabbitTemplate.setReturnCallback(this);
-
 		this.rabbitTemplate.setMandatory(true);
 	}
 
